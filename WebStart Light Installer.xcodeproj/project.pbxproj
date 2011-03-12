@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050BBD62130BEEBC0054DF58 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05406734130AC46F005E910C /* MainMenu.xib */; };
+		054066E7130AC420005E910C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054066E6130AC420005E910C /* Cocoa.framework */; };
+		054066F1130AC420005E910C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 054066EF130AC420005E910C /* InfoPlist.strings */; };
+		054066F4130AC420005E910C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 054066F3130AC420005E910C /* main.m */; };
+		05406710130AC466005E910C /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0540670C130AC466005E910C /* Application.icns */; };
+		05406711130AC466005E910C /* my.cnf in Resources */ = {isa = PBXBuildFile; fileRef = 0540670D130AC466005E910C /* my.cnf */; };
+		05406738130AC46F005E910C /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05406714130AC46F005E910C /* AboutController.m */; };
+		05406739130AC46F005E910C /* ApplicationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05406715130AC46F005E910C /* ApplicationController.m */; };
+		0540673A130AC46F005E910C /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05406716130AC46F005E910C /* ApplicationDelegate.m */; };
+		0540673C130AC46F005E910C /* InstallController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0540671F130AC46F005E910C /* InstallController.m */; };
+		0540673E130AC46F005E910C /* WebStart-Light.pkg in Resources */ = {isa = PBXBuildFile; fileRef = 05406725130AC46F005E910C /* WebStart-Light.pkg */; };
+		05406744130AC46F005E910C /* complete.aif in Resources */ = {isa = PBXBuildFile; fileRef = 0540672D130AC46F005E910C /* complete.aif */; };
+		05406745130AC46F005E910C /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540672E130AC46F005E910C /* About.xib */; };
+		05406746130AC46F005E910C /* Install.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05406730130AC46F005E910C /* Install.xib */; };
+		05406747130AC46F005E910C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05406732130AC46F005E910C /* Localizable.strings */; };
+		05406759130AC53C005E910C /* NL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05406758130AC53C005E910C /* NL.framework */; };
+		054AAAA8130F953D00FE8B2A /* NL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05406758130AC53C005E910C /* NL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05406752130AC510005E910C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05B7571A12E807E600C5DF5B;
+			remoteInfo = "NutShell (Public)";
+		};
+		05406754130AC510005E910C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0575ED8812E89230005E2DC0;
+			remoteInfo = "NutShell (Private)";
+		};
+		05406756130AC538005E910C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0575ED8712E89230005E2DC0;
+			remoteInfo = "NutShell (Private)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05B6841E130BE9CC00EF4AD1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				054AAAA8130F953D00FE8B2A /* NL.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		054066E2130AC420005E910C /* WebStart Light Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebStart Light Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		054066E6130AC420005E910C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		054066E9130AC420005E910C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		054066EA130AC420005E910C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		054066EB130AC420005E910C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		054066F0130AC420005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		054066F3130AC420005E910C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0540670C130AC466005E910C /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
+		0540670D130AC466005E910C /* my.cnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my.cnf; sourceTree = "<group>"; };
+		0540670E130AC466005E910C /* WebStart_Light_Installer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WebStart_Light_Installer-Info.plist"; sourceTree = "<group>"; };
+		0540670F130AC466005E910C /* WebStart_Light_Installer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WebStart_Light_Installer-Prefix.pch"; sourceTree = "<group>"; };
+		05406714130AC46F005E910C /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		05406715130AC46F005E910C /* ApplicationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationController.m; sourceTree = "<group>"; };
+		05406716130AC46F005E910C /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		05406719130AC46F005E910C /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		0540671A130AC46F005E910C /* ApplicationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationController.h; sourceTree = "<group>"; };
+		0540671B130AC46F005E910C /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		0540671D130AC46F005E910C /* InstallController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallController.h; sourceTree = "<group>"; };
+		0540671F130AC46F005E910C /* InstallController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallController.m; sourceTree = "<group>"; };
+		05406722130AC46F005E910C /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		05406723130AC46F005E910C /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		05406725130AC46F005E910C /* WebStart-Light.pkg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WebStart-Light.pkg"; sourceTree = "<group>"; };
+		0540672D130AC46F005E910C /* complete.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = complete.aif; sourceTree = "<group>"; };
+		0540672F130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/About.xib; sourceTree = "<group>"; };
+		05406731130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Install.xib; sourceTree = "<group>"; };
+		05406733130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05406735130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0540674A130AC510005E910C /* NutShell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NutShell.xcodeproj; path = ../../../Frameworks/NutShell/trunk/NutShell.xcodeproj; sourceTree = "<group>"; };
+		05406758130AC53C005E910C /* NL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054066DF130AC420005E910C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054066E7130AC420005E910C /* Cocoa.framework in Frameworks */,
+				05406759130AC53C005E910C /* NL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		054066D7130AC420005E910C = {
+			isa = PBXGroup;
+			children = (
+				0540674A130AC510005E910C /* NutShell.xcodeproj */,
+				054066EC130AC420005E910C /* WebStart Light Installer */,
+				054066E5130AC420005E910C /* Frameworks */,
+				054066E3130AC420005E910C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		054066E3130AC420005E910C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				054066E2130AC420005E910C /* WebStart Light Installer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		054066E5130AC420005E910C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054066E6130AC420005E910C /* Cocoa.framework */,
+				05406758130AC53C005E910C /* NL.framework */,
+				054066E8130AC420005E910C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		054066E8130AC420005E910C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				054066E9130AC420005E910C /* AppKit.framework */,
+				054066EA130AC420005E910C /* CoreData.framework */,
+				054066EB130AC420005E910C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		054066EC130AC420005E910C /* WebStart Light Installer */ = {
+			isa = PBXGroup;
+			children = (
+				05406713130AC46F005E910C /* Classes */,
+				0540672C130AC46F005E910C /* UI */,
+				05406724130AC46F005E910C /* Installers */,
+				054066ED130AC420005E910C /* Supporting Files */,
+			);
+			path = "WebStart Light Installer";
+			sourceTree = "<group>";
+		};
+		054066ED130AC420005E910C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05406721130AC46F005E910C /* include */,
+				0540670C130AC466005E910C /* Application.icns */,
+				0540670D130AC466005E910C /* my.cnf */,
+				0540670E130AC466005E910C /* WebStart_Light_Installer-Info.plist */,
+				0540670F130AC466005E910C /* WebStart_Light_Installer-Prefix.pch */,
+				054066EF130AC420005E910C /* InfoPlist.strings */,
+				054066F3130AC420005E910C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05406713130AC46F005E910C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05406718130AC46F005E910C /* include */,
+				05406714130AC46F005E910C /* AboutController.m */,
+				05406715130AC46F005E910C /* ApplicationController.m */,
+				05406716130AC46F005E910C /* ApplicationDelegate.m */,
+				0540671F130AC46F005E910C /* InstallController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		05406718130AC46F005E910C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				05406719130AC46F005E910C /* AboutController.h */,
+				0540671A130AC46F005E910C /* ApplicationController.h */,
+				0540671B130AC46F005E910C /* ApplicationDelegate.h */,
+				0540671D130AC46F005E910C /* InstallController.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		05406721130AC46F005E910C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				05406722130AC46F005E910C /* constants.h */,
+				05406723130AC46F005E910C /* macros.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		05406724130AC46F005E910C /* Installers */ = {
+			isa = PBXGroup;
+			children = (
+				05406725130AC46F005E910C /* WebStart-Light.pkg */,
+			);
+			path = Installers;
+			sourceTree = "<group>";
+		};
+		0540672C130AC46F005E910C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0540672D130AC46F005E910C /* complete.aif */,
+				0540672E130AC46F005E910C /* About.xib */,
+				05406730130AC46F005E910C /* Install.xib */,
+				05406732130AC46F005E910C /* Localizable.strings */,
+				05406734130AC46F005E910C /* MainMenu.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0540674B130AC510005E910C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05406753130AC510005E910C /* NutShell.framework */,
+				05406755130AC510005E910C /* NL.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054066E1130AC420005E910C /* WebStart Light Installer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05406700130AC420005E910C /* Build configuration list for PBXNativeTarget "WebStart Light Installer" */;
+			buildPhases = (
+				054066DE130AC420005E910C /* Sources */,
+				054066DF130AC420005E910C /* Frameworks */,
+				054066E0130AC420005E910C /* Resources */,
+				05B6841E130BE9CC00EF4AD1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05406757130AC538005E910C /* PBXTargetDependency */,
+			);
+			name = "WebStart Light Installer";
+			productName = "WebStart Light Installer";
+			productReference = 054066E2130AC420005E910C /* WebStart Light Installer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		054066D9130AC420005E910C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = eosgarden;
+			};
+			buildConfigurationList = 054066DC130AC420005E910C /* Build configuration list for PBXProject "WebStart Light Installer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 054066D7130AC420005E910C;
+			productRefGroup = 054066E3130AC420005E910C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0540674B130AC510005E910C /* Products */;
+					ProjectRef = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				054066E1130AC420005E910C /* WebStart Light Installer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		05406753130AC510005E910C /* NutShell.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NutShell.framework;
+			remoteRef = 05406752130AC510005E910C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05406755130AC510005E910C /* NL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = NL.framework;
+			remoteRef = 05406754130AC510005E910C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		054066E0130AC420005E910C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054066F1130AC420005E910C /* InfoPlist.strings in Resources */,
+				05406710130AC466005E910C /* Application.icns in Resources */,
+				05406711130AC466005E910C /* my.cnf in Resources */,
+				0540673E130AC46F005E910C /* WebStart-Light.pkg in Resources */,
+				05406744130AC46F005E910C /* complete.aif in Resources */,
+				05406745130AC46F005E910C /* About.xib in Resources */,
+				05406746130AC46F005E910C /* Install.xib in Resources */,
+				05406747130AC46F005E910C /* Localizable.strings in Resources */,
+				050BBD62130BEEBC0054DF58 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		054066DE130AC420005E910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				054066F4130AC420005E910C /* main.m in Sources */,
+				05406738130AC46F005E910C /* AboutController.m in Sources */,
+				05406739130AC46F005E910C /* ApplicationController.m in Sources */,
+				0540673A130AC46F005E910C /* ApplicationDelegate.m in Sources */,
+				0540673C130AC46F005E910C /* InstallController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05406757130AC538005E910C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NutShell (Private)";
+			targetProxy = 05406756130AC538005E910C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		054066EF130AC420005E910C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				054066F0130AC420005E910C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0540672E130AC46F005E910C /* About.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0540672F130AC46F005E910C /* en */,
+			);
+			name = About.xib;
+			sourceTree = "<group>";
+		};
+		05406730130AC46F005E910C /* Install.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05406731130AC46F005E910C /* en */,
+			);
+			name = Install.xib;
+			sourceTree = "<group>";
+		};
+		05406732130AC46F005E910C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05406733130AC46F005E910C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		05406734130AC46F005E910C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05406735130AC46F005E910C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		054066FE130AC420005E910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		054066FF130AC420005E910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05406701130AC420005E910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebStart Light Installer/WebStart_Light_Installer-Prefix.pch";
+				INFOPLIST_FILE = "WebStart Light Installer/WebStart_Light_Installer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05406702130AC420005E910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebStart Light Installer/WebStart_Light_Installer-Prefix.pch";
+				INFOPLIST_FILE = "WebStart Light Installer/WebStart_Light_Installer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054066DC130AC420005E910C /* Build configuration list for PBXProject "WebStart Light Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054066FE130AC420005E910C /* Debug */,
+				054066FF130AC420005E910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05406700130AC420005E910C /* Build configuration list for PBXNativeTarget "WebStart Light Installer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05406701130AC420005E910C /* Debug */,
+				05406702130AC420005E910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 054066D9130AC420005E910C /* Project object */;
+}

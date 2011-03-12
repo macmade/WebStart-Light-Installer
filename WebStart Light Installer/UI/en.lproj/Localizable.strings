@@ -1,0 +1,58 @@
+/*******************************************************************************
+ * Copyright (c) 2011, Jean-David Gadina <macmade@eosgarden.com>
+ * All rights reserved
+ ******************************************************************************/
+ 
+/* $Id$ */
+
+/*!
+ * @file        
+ * @copyright   eosgarden 2011 - Jean-David Gadina <macmade@eosgarden.com>
+ * @abstract    ...
+ */
+
+"Yes"                               = "Yes";
+"No"                                = "No";
+"Cancel"                            = "Cancel";
+"OK"                                = "OK";
+"Close"                             = "Close";
+"Error"                             = "Error";
+"Save"                              = "Save";
+"Sorry"                             = "Sorry";
+"VersionFormat"                     = "Version: %@";
+
+"eSellerateEngineError"             = "Unable to install the eSellerate engine";
+"eSellerateEngineError2001"         = "Reason: The SDK failed to add a name/value entry (code: %i). The application will now quit.";
+"eSellerateEngineError2002"         = "Reason: A parameter is incorrect (code: %i). The application will now quit.";
+"eSellerateEngineError2003"         = "Reason: There was an error installing the engine (code: %i). The application will now quit.";
+"eSellerateEngineError2004"         = "Reason: There was an error loading the installed engine (code: %i). The application will now quit.";
+"eSellerateEngineError2005"         = "Reason: The engine is corrupted (code: %i). The application will now quit.";
+"eSellerateEngineError2007"         = "Reason: The result from the engine could not be found (code: %i).";
+"eSellerateEngineError2008"         = "Reason: The engine is already running within the application (code: %i). The application will now quit.";
+"eSellerateEngineError2009"         = "Reason: The engine being installed is corrupted (code: %i). The application will now quit.";
+"eSellerateEngineErrorUnknown"      = "Reason: An unknown error occured (code: %i). The application will now quit.";
+
+"eSellerateInetError"               = "Connection error";
+"eSellerateInetError3001"           = "Reason: A general connection failure has occured (code: %i). Please check that you are connected to the internet.";
+"eSellerateInetError3002"           = "Reason: The engine failed to connect to the eSellerate servers (code: %i).";
+"eSellerateInetError3003"           = "Reason: The engine failed to download an update (code: %i).";
+"eSellerateInetError3004"           = "Reason: The eSellerate engine data is missing from the results (code: %i).";
+"eSellerateInetErrorUnknown"        = "Reason: An unknown error occured (code: %i).";
+
+"ConnectionError"                   = "Connection failed";
+"ConnectionErrorText"               = "Impossible to establish a network connection. Please ensure you have a working Internet connection and try again.";
+
+"SerialNumberInvalid"               = "Sorry, that's not a valid WebStart serial number!";
+"SerialNumberInvalidText"           = "Please make sure that all digits and dashes are entered in the correct order.";
+
+"SerialNumberValid"                 = "Registration complete!";
+"SerialNumberValidText"             = "Thank you so much for purchasing WebStart!";
+
+"InstallInit"                       = "Preparing the installation...";
+"InstallWait"                       = "Please wait...";
+"InstallTitle"                      = "Installing the WebStart environment";
+"InstallDone"                       = "Installation is done.";
+"InstallLaunch"                     = "Start";
+
+"InstallProgress"                   = "Installation in progress";
+"InstallProgressText"               = "Please wait till the end of the installation before quitting this installer.";
