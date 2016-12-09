@@ -22,31 +22,38 @@
 		05406745130AC46F005E910C /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0540672E130AC46F005E910C /* About.xib */; };
 		05406746130AC46F005E910C /* Install.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05406730130AC46F005E910C /* Install.xib */; };
 		05406747130AC46F005E910C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05406732130AC46F005E910C /* Localizable.strings */; };
-		05406759130AC53C005E910C /* NL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05406758130AC53C005E910C /* NL.framework */; };
-		054AAAA8130F953D00FE8B2A /* NL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05406758130AC53C005E910C /* NL.framework */; };
+		05CB67FA1DFB383A00DBB039 /* NutShell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB67F31DFB382A00DBB039 /* NutShell.framework */; };
+		05CB67FB1DFB384000DBB039 /* NutShell.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05CB67F31DFB382A00DBB039 /* NutShell.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		05406752130AC510005E910C /* PBXContainerItemProxy */ = {
+		05CB67F21DFB382A00DBB039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+			containerPortal = 05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 05B7571A12E807E600C5DF5B;
 			remoteInfo = "NutShell (Public)";
 		};
-		05406754130AC510005E910C /* PBXContainerItemProxy */ = {
+		05CB67F41DFB382A00DBB039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+			containerPortal = 05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 0575ED8812E89230005E2DC0;
 			remoteInfo = "NutShell (Private)";
 		};
-		05406756130AC538005E910C /* PBXContainerItemProxy */ = {
+		05CB67F61DFB382A00DBB039 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+			containerPortal = 05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0560DFB214B86FA30041D14E;
+			remoteInfo = "NutShell (Static)";
+		};
+		05CB67F81DFB383300DBB039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 0575ED8712E89230005E2DC0;
-			remoteInfo = "NutShell (Private)";
+			remoteGlobalIDString = 05B7571912E807E600C5DF5B;
+			remoteInfo = "NutShell (Public)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -57,7 +64,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				054AAAA8130F953D00FE8B2A /* NL.framework in CopyFiles */,
+				05CB67FB1DFB384000DBB039 /* NutShell.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +98,8 @@
 		05406731130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Install.xib; sourceTree = "<group>"; };
 		05406733130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		05406735130AC46F005E910C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		0540674A130AC510005E910C /* NutShell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NutShell.xcodeproj; path = ../../../Frameworks/NutShell/trunk/NutShell.xcodeproj; sourceTree = "<group>"; };
 		05406758130AC53C005E910C /* NL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NutShell.xcodeproj; path = Submodules/NutShell/NutShell.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05CB67FA1DFB383A00DBB039 /* NutShell.framework in Frameworks */,
 				054066E7130AC420005E910C /* Cocoa.framework in Frameworks */,
-				05406759130AC53C005E910C /* NL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +118,7 @@
 		054066D7130AC420005E910C = {
 			isa = PBXGroup;
 			children = (
-				0540674A130AC510005E910C /* NutShell.xcodeproj */,
+				05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */,
 				054066EC130AC420005E910C /* WebStart Light Installer */,
 				054066E5130AC420005E910C /* Frameworks */,
 				054066E3130AC420005E910C /* Products */,
@@ -223,11 +230,12 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
-		0540674B130AC510005E910C /* Products */ = {
+		05CB67ED1DFB382A00DBB039 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05406753130AC510005E910C /* NutShell.framework */,
-				05406755130AC510005E910C /* NL.framework */,
+				05CB67F31DFB382A00DBB039 /* NutShell.framework */,
+				05CB67F51DFB382A00DBB039 /* NL.framework */,
+				05CB67F71DFB382A00DBB039 /* libNLStatic.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -247,7 +255,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				05406757130AC538005E910C /* PBXTargetDependency */,
+				05CB67F91DFB383300DBB039 /* PBXTargetDependency */,
 			);
 			name = "WebStart Light Installer";
 			productName = "WebStart Light Installer";
@@ -274,8 +282,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 0540674B130AC510005E910C /* Products */;
-					ProjectRef = 0540674A130AC510005E910C /* NutShell.xcodeproj */;
+					ProductGroup = 05CB67ED1DFB382A00DBB039 /* Products */;
+					ProjectRef = 05CB67EC1DFB382A00DBB039 /* NutShell.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -286,18 +294,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		05406753130AC510005E910C /* NutShell.framework */ = {
+		05CB67F31DFB382A00DBB039 /* NutShell.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NutShell.framework;
-			remoteRef = 05406752130AC510005E910C /* PBXContainerItemProxy */;
+			remoteRef = 05CB67F21DFB382A00DBB039 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		05406755130AC510005E910C /* NL.framework */ = {
+		05CB67F51DFB382A00DBB039 /* NL.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = NL.framework;
-			remoteRef = 05406754130AC510005E910C /* PBXContainerItemProxy */;
+			remoteRef = 05CB67F41DFB382A00DBB039 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05CB67F71DFB382A00DBB039 /* libNLStatic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libNLStatic.a;
+			remoteRef = 05CB67F61DFB382A00DBB039 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -337,10 +352,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05406757130AC538005E910C /* PBXTargetDependency */ = {
+		05CB67F91DFB383300DBB039 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "NutShell (Private)";
-			targetProxy = 05406756130AC538005E910C /* PBXContainerItemProxy */;
+			name = "NutShell (Public)";
+			targetProxy = 05CB67F81DFB383300DBB039 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
